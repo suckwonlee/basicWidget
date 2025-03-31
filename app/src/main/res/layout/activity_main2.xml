@@ -19,5 +19,38 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="text3"/>
+    <EditText
+        android:id="@+id/edit1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="학교명 입력하세요"/>
 
+    <TextView
+        android:id="@+id/textResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textSize="20sp"
+        android:text="결과:"/>
+    <Button
+        android:id="@+id/Btn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="결과확인"/>
+
+<!--    <Button-->
+<!--        android:id="@+id/Btn1"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="집가고 싶을때\n누르는 버튼"-->
+<!--        android:backgroundTint="@color/red"-->
+<!--        android:textColor="@color/yellow"/>-->
+
+<!--    <Button-->
+<!--        android:id="@+id/Btn2"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:visibility="invisible"-->
+<!--        android:text="응 못가"/>-->
 </LinearLayout>
